@@ -1,0 +1,255 @@
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  3 DEC 2020 09:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/Users/Hiroki/Desktop/git-projects/syuron_oka/main
+(/Users/Hiroki/Desktop/git-projects/syuron_oka/main.tex
+pLaTeX2e <2018-07-28>+1 (based on LaTeX2e <2018-04-01> patch level 5)
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jarticle.cls
+Document Class: jarticle 2018/07/03 v1.8 Standard pLaTeX class
+\c@@paper=\count83
+(/usr/local/texlive/2018/texmf-dist/tex/platex/base/jsize12.clo
+File: jsize12.clo 2018/07/03 v1.8 Standard pLaTeX file (size option)
+)
+\c@part=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 614.
+\toclineskip=\dimen118
+\@lnumwidth=\dimen119
+\bibindent=\dimen120
+\heisei=\count92
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+\epsfxsize=\dimen123
+\epsfysize=\dimen124
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+\col@sep=\dimen125
+\ar@mcellbox=\box42
+\extrarowheight=\dimen126
+\NC@list=\toks16
+\extratabsurround=\skip43
+\backup@length=\skip44
+\ar@cellbox=\box43
+)
+\TX@col@width=\dimen127
+\TX@old@table=\dimen128
+\TX@old@col=\dimen129
+\TX@target=\dimen130
+\TX@delta=\dimen131
+\TX@cols=\count93
+\TX@ftn=\toks17
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/listing/slashbox.sty
+slashbox style by K.Yasuoka, May 1993.
+\@slashboxa=\box44
+\@slashboxb=\box45
+\@slashboxc=\box46
+\@slashboxwd=\count94
+\@slashboxht=\count95
+\@slashsepl=\dimen132
+\@slashsepr=\dimen133
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment') (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen134
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen135
+\subfiglabelskip=\skip48
+\c@subfigure=\count96
+\c@lofdepth=\count97
+\c@subtable=\count98
+\c@lotdepth=\count99
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/ccaption/ccaption.sty
+Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
+\@contcwidth=\skip51
+\@contindw=\skip52
+\abovelegendskip=\skip53
+\belowlegendskip=\skip54
+\c@newflo@tctr=\count100
+)
+\leftcolumn=\skip55
+\rightcolumn=\skip56
+ (./main.aux (./0_abstract.aux) (./1_introduction_2.aux) (./2_related_research_2.aux) (./3_system.aux) (./4_implementation.aux) (./5_evaluation.aux) (./6_conclusion.aux) (./7_thanks.aux) (./8_reference.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+\c@theorem=\count101
+\c@definition=\count102
+ [1
+
+]
+\openout2 = `0_abstract.aux'.
+
+ (./0_abstract.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+) [2
+
+] (./main.toc
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 3.
+)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [3
+
+]
+\openout2 = `1_introduction_2.aux'.
+
+ (./1_introduction_2.tex [1
+
+]) [2]
+\openout2 = `2_related_research_2.aux'.
+
+ (./2_related_research_2.tex
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 3.
+ [3
+
+
+] [4]) [5]
+\openout2 = `3_system.aux'.
+
+ (./3_system.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
+ [6
+
+
+]) [7]
+\openout2 = `4_implementation.aux'.
+
+ (./4_implementation.tex [8
+
+
+]) [9]
+\openout2 = `5_evaluation.aux'.
+
+ (./5_evaluation.tex
+
+LaTeX Warning: Reference `survey' on page 10\,\,\, undefined on input line 11.
+
+[10
+
+
+] [11]) [12]
+\openout2 = `6_conclusion.aux'.
+
+ (./6_conclusion.tex) [13
+
+
+]
+\openout2 = `7_thanks.aux'.
+
+ (./7_thanks.tex) [14
+
+
+]
+\openout2 = `8_reference.aux'.
+
+ (./8_reference.tex
+
+LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
+(Font)              using `JT1/mc/m/n' instead on input line 11.
+
+
+LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
+(Font)              using `JY1/mc/m/n' instead on input line 11.
+
+[15
+
+
+]) [16] (./main.aux (./0_abstract.aux) (./1_introduction_2.aux) (./2_related_research_2.aux) (./3_system.aux) (./4_implementation.aux) (./5_evaluation.aux) (./6_conclusion.aux) (./7_thanks.aux) (./8_reference.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1369 strings out of 493248
+ 18028 string characters out of 6144402
+ 95460 words of memory out of 5000000
+ 5281 multiletter control sequences out of 15000+600000
+ 14681 words of font info for 57 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 32i,4n,24p,1494b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (19 pages, 62532 bytes).

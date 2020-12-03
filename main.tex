@@ -1,0 +1,102 @@
+\documentclass[a4j,12pt]{jarticle}
+\usepackage{url}
+\usepackage{epsfig}
+\usepackage{tabularx}
+\usepackage{slashbox}
+\usepackage{comment}
+\usepackage{subfigure}
+
+\def\subfigcapskip{0pt}
+
+\usepackage{ccaption}
+\setlength{\abovecaptionskip}{0pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength\floatsep{20pt}
+\setlength\abovecaptionskip{10pt}
+\setlength\belowcaptionskip{10pt}
+
+\newlength{\leftcolumn}
+\setlength{\leftcolumn}{0.40\textwidth}
+\newlength{\rightcolumn}
+\setlength{\rightcolumn}{0.55\textwidth}
+
+\addtolength{\topmargin}{-.75cm}
+\addtolength{\oddsidemargin}{0.18cm}
+\addtolength{\textwidth}{2zw}
+\addtolength{\textheight}{0.5cm}
+\addtolength{\footskip}{-0.8cm}
+\setlength{\parindent}{2.5ex}
+\newcommand{\normaldefault}[1]{\default{}{#1}{#1}}
+\newcommand{\default}[3]{\frac{#1\,:\,#2}{#3}}
+
+%図が入りやすくなる魔法のコマンド
+  \setcounter{topnumber}{9} % 頁上部の最大float数
+  \setcounter{totalnumber}{9} % １頁の 〃
+  \setcounter{dbltopnumber}{9} % twocolumn時の頁上部の最大float数
+  \renewcommand\topfraction{.9} % 頁上部のfloatで占める最大の割合
+  \renewcommand\textfraction{.001} % １頁のテキスト部の占める最小割合
+  \renewcommand\dbltopfraction{.9} % twocolumn時の topfraction
+  \renewcommand\dblfloatpagefraction{.9} % twocolumn時の floatpagefraction
+%魔法
+
+\begin{document}
+\mbox{}
+%**まえがき**
+
+%**{表紙}**
+%\pagestyle{empty}
+%\include{open}
+
+\pagestyle{myheadings}                       % 右上にページ
+
+\newtheorem{theorem}{定理}       % theorem
+\newtheorem{definition}{定義}
+
+\renewcommand{\thepage}{\roman{page}\,\,\,}  % 英語ページ
+\setcounter{page}{1}
+\setlength{\baselineskip}{21pt}
+\include{0_abstract}
+
+\newpage
+\markright{}
+\tableofcontents            %  目次
+\markright{}
+\newpage
+
+%###################### 本文 #######################
+\renewcommand{\thepage}{\arabic{page}\,\,\,}  % 数字ページ
+
+\setcounter{page}{1}
+\setlength{\baselineskip}{19pt}
+
+\newpage
+\include{1_introduction_2}
+\markright{}
+
+\newpage
+\include{2_related_research_2}
+
+\newpage
+\include{3_system}
+
+\newpage
+\include{4_implementation}
+
+\newpage
+\include{5_evaluation}
+
+\newpage
+\include{6_conclusion}
+
+\newpage
+\addcontentsline{toc}{section}{\protect\numberline{}{謝辞}}
+\markright{}
+\include{7_thanks}
+
+\newpage
+\addcontentsline{toc}{section}{\protect\numberline{}{参考文献}}
+\markright{}
+\include{8_reference}
+
+
+\end{document}
