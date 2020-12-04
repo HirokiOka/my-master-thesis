@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  3 DEC 2020 23:05
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  4 DEC 2020 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,7 +113,14 @@ Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
 )
 \leftcolumn=\skip55
 \rightcolumn=\skip56
- (./main.aux (./0_abstract.aux) (./1_introduction_2.aux) (./2_related_research_2.aux) (./3_system.aux) (./6_conclusion.aux) (./7_thanks.aux) (./8_reference.aux))
+ (./main.aux (./0_abstract.aux)
+No file 1_introduction_2.aux.
+No file 2_related_research_2.aux.
+No file 3_system.aux.
+No file 6_conclusion.aux.
+No file 7_thanks.aux.
+No file 8_reference.aux.
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
@@ -164,14 +171,14 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [3
 
 ]
-\openout2 = `1_introduction_2.aux'.
+\openout2 = `1_introduction.aux'.
 
- (./1_introduction_2.tex) [1
+ (./1_introduction.tex) [1
 
 ]
-\openout2 = `2_related_research_2.aux'.
+\openout2 = `2_code_reading.aux'.
 
- (./2_related_research_2.tex
+ (./2_code_reading.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
@@ -180,27 +187,27 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 
 
 ]
-\openout2 = `3_system.aux'.
+\openout2 = `3_livecode_STG.aux'.
 
- (./3_system.tex) [3
-
-
-]
-\openout2 = `6_conclusion.aux'.
-
- (./6_conclusion.tex) [4
+ (./3_livecode_STG.tex) [3
 
 
 ]
-\openout2 = `7_thanks.aux'.
+\openout2 = `4_conclusion.aux'.
 
- (./7_thanks.tex) [5
+ (./4_conclusion.tex) [4
 
 
 ]
-\openout2 = `8_reference.aux'.
+\openout2 = `5_thanks.aux'.
 
- (./8_reference.tex
+ (./5_thanks.tex) [5
+
+
+]
+\openout2 = `6_reference.aux'.
+
+ (./6_reference.tex
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
 (Font)              using `JT1/mc/m/n' instead on input line 11.
@@ -212,16 +219,19 @@ LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
 [6
 
 
-]) [7] (./main.aux (./0_abstract.aux) (./1_introduction_2.aux) (./2_related_research_2.aux) (./3_system.aux) (./6_conclusion.aux) (./7_thanks.aux) (./8_reference.aux))
+]) [7] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1335 strings out of 493248
- 17446 string characters out of 6144402
- 87739 words of memory out of 5000000
- 5264 multiletter control sequences out of 15000+600000
+ 1323 strings out of 493248
+ 17208 string characters out of 6144402
+ 86156 words of memory out of 5000000
+ 5258 multiletter control sequences out of 15000+600000
  14681 words of font info for 57 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,4n,24p,868b,273s stack positions out of 5000i,500n,10000p,200000b,80000s
