@@ -9,8 +9,11 @@
 \contentsline {subsection}{\numberline {3.1}関連研究}{3\,\,\,}
 \contentsline {subsection}{\numberline {3.2}設計指針}{3\,\,\,}
 \contentsline {subsection}{\numberline {3.3}提案システム}{3\,\,\,}
-\contentsline {subsection}{\numberline {3.4}評価実験}{3\,\,\,}
-\contentsline {subsection}{\numberline {3.5}課題と考察}{3\,\,\,}
-\contentsline {section}{\numberline {4}まとめ}{4\,\,\,}
-\contentsline {section}{\numberline {}{謝辞}}{5\,\,\,}
-\contentsline {section}{\numberline {}{参考文献}}{6\,\,\,}
+\contentsline {subsubsection}{\numberline {3.3.1}自機プログラミングフェイズ}{4\,\,\,}
+\contentsline {subsubsection}{\numberline {3.3.2}行動プログラミングフェイズ}{4\,\,\,}
+\contentsline {subsubsection}{\numberline {3.3.3}ゲームフェイズ}{5\,\,\,}
+\contentsline {subsection}{\numberline {3.4}評価実験}{5\,\,\,}
+\contentsline {subsection}{\numberline {3.5}課題と考察}{5\,\,\,}
+\contentsline {section}{\numberline {4}まとめ}{6\,\,\,}
+\contentsline {section}{\numberline {}{謝辞}}{7\,\,\,}
+\contentsline {section}{\numberline {}{参考文献}}{8\,\,\,}
