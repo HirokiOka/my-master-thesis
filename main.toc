@@ -15,7 +15,9 @@
 \contentsline {subsection}{\numberline {3.4}評価実験}{5\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.1}実験参加者}{5\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.2}実験内容}{6\,\,\,}
-\contentsline {subsection}{\numberline {3.5}課題と考察}{6\,\,\,}
-\contentsline {section}{\numberline {4}まとめ}{7\,\,\,}
-\contentsline {section}{\numberline {}{謝辞}}{8\,\,\,}
-\contentsline {section}{\numberline {}{参考文献}}{9\,\,\,}
+\contentsline {subsubsection}{\numberline {3.4.3}実験結果}{6\,\,\,}
+\contentsline {subsubsection}{\numberline {3.4.4}考察}{6\,\,\,}
+\contentsline {subsection}{\numberline {3.5}課題}{7\,\,\,}
+\contentsline {section}{\numberline {4}まとめ}{8\,\,\,}
+\contentsline {section}{\numberline {}{謝辞}}{9\,\,\,}
+\contentsline {section}{\numberline {}{参考文献}}{10\,\,\,}
