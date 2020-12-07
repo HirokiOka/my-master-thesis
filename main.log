@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  7 DEC 2020 15:30
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  7 DEC 2020 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -179,29 +179,37 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
  [2
 
 
-]
+] [3]
 File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: image/prototype_fortune.eps Graphic file (type eps)
-<image/prototype_fortune.eps>
+ <image/prototype_fortune.eps>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 74.
+[4]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 74.
- [4] [5] [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6]
 File: image/quiz.eps Graphic file (type eps)
  <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
- <image/fortune.eps>) [7] [8]
+ <image/fortune.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [7] [8]
 \openout2 = `3_livecode_STG.aux'.
 
  (./3_livecode_STG.tex [9
@@ -228,17 +236,17 @@ File: image/game.eps Graphic file (type eps)
 ]
 \openout2 = `6_reference.aux'.
 
- (./6_reference.tex) [18
+ (./6_reference.tex [18
 
 
-] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
+]) [19] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 1372 strings out of 493248
- 18265 string characters out of 6144402
- 92824 words of memory out of 5000000
- 5290 multiletter control sequences out of 15000+600000
+ 1373 strings out of 493248
+ 18272 string characters out of 6144402
+ 94828 words of memory out of 5000000
+ 5291 multiletter control sequences out of 15000+600000
  14334 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,8n,24p,1244b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,8n,24p,1244b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (22 pages, 60008 bytes).
+Output written on main.dvi (23 pages, 63244 bytes).

@@ -4,10 +4,10 @@
 \contentsline {subsection}{\numberline {2.2}設計指針}{2\,\,\,}
 \contentsline {subsection}{\numberline {2.3}提案システム}{3\,\,\,}
 \contentsline {subsubsection}{\numberline {2.3.1}実装機能}{3\,\,\,}
-\contentsline {subsection}{\numberline {2.4}プロトタイプシステム}{3\,\,\,}
+\contentsline {subsection}{\numberline {2.4}プロトタイプシステム}{4\,\,\,}
 \contentsline {subsubsection}{\numberline {2.4.1}ケーススタディ}{4\,\,\,}
-\contentsline {subsection}{\numberline {2.5}Webアプリケーション}{6\,\,\,}
-\contentsline {subsection}{\numberline {2.6}課題と考察}{8\,\,\,}
+\contentsline {subsection}{\numberline {2.5}Webアプリケーション}{7\,\,\,}
+\contentsline {subsection}{\numberline {2.6}課題と考察}{7\,\,\,}
 \contentsline {section}{\numberline {3}競技性・観戦性を拡張したプログラミングゲームの開発}{9\,\,\,}
 \contentsline {subsection}{\numberline {3.1}関連研究・関連システム}{9\,\,\,}
 \contentsline {subsubsection}{\numberline {3.1.1}プログラミングを用いたエンタテインメントシステム}{9\,\,\,}
