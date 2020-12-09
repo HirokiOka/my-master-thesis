@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  7 DEC 2020 17:33
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  9 DEC 2020 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -103,37 +103,43 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip49
 \subfig@bottom=\skip50
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
+\multirow@colwidth=\skip51
+\multirow@cntb=\count100
+\multirow@dima=\skip52
+\bigstrutjot=\dimen136
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/ccaption/ccaption.sty
 Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
-\@contcwidth=\skip51
-\@contindw=\skip52
-\abovelegendskip=\skip53
-\belowlegendskip=\skip54
-\c@newflo@tctr=\count100
+\@contcwidth=\skip53
+\@contindw=\skip54
+\abovelegendskip=\skip55
+\belowlegendskip=\skip56
+\c@newflo@tctr=\count101
 )
-\leftcolumn=\skip55
-\rightcolumn=\skip56
+\leftcolumn=\skip57
+\rightcolumn=\skip58
  (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-\c@theorem=\count101
-\c@definition=\count102
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+\c@theorem=\count102
+\c@definition=\count103
  [1
 
 ]
@@ -157,13 +163,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 3.
-)
+ [3
+
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3
-
-] [4]
+ [4]
 \openout2 = `1_introduction.aux'.
 
  (./1_introduction.tex) [1
@@ -212,41 +218,66 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ) [7] [8]
 \openout2 = `3_livecode_STG.aux'.
 
- (./3_livecode_STG.tex [9
+ (./3_livecode_STG.tex
+Overfull \hbox (4.2213pt too wide) in paragraph at lines 10--11
+[]\JY1/mc/m/n/12 初学者向けプログラミング学習支援システムは数多く存在する ． \OT1/cmr/m/n/12 Scratch[[]],Viscuit[[]]
+ []
+
+[9
 
 
 ] [10]
 File: image/characterProgramming.eps Graphic file (type eps)
- <image/characterProgramming.eps> [11]
+ <image/characterProgramming.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: image/actionProgramming.eps Graphic file (type eps)
- <image/actionProgramming.eps> [12]
+<image/actionProgramming.eps> [11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: image/game.eps Graphic file (type eps)
- <image/game.eps> [13] [14]) [15]
+<image/game.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12] [13]
+Overfull \hbox (61.24593pt too wide) in paragraph at lines 98--106
+ [][] 
+ []
+
+[14] [15]
+Overfull \hbox (96.17741pt too wide) in paragraph at lines 123--130
+ [][] 
+ []
+
+[16]) [17]
 \openout2 = `4_conclusion.aux'.
 
- (./4_conclusion.tex) [16
+ (./4_conclusion.tex) [18
 
 
 ]
 \openout2 = `5_thanks.aux'.
 
- (./5_thanks.tex) [17
+ (./5_thanks.tex) [19
 
 
 ]
 \openout2 = `6_reference.aux'.
 
- (./6_reference.tex [18
+ (./6_reference.tex [20
 
 
-]) [19] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
+]) [21] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 1373 strings out of 493248
- 18272 string characters out of 6144402
- 94828 words of memory out of 5000000
- 5291 multiletter control sequences out of 15000+600000
+ 1431 strings out of 493248
+ 19174 string characters out of 6144402
+ 95380 words of memory out of 5000000
+ 5345 multiletter control sequences out of 15000+600000
  14334 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,8n,24p,1244b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,24p,1244b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (23 pages, 63244 bytes).
+Output written on main.dvi (25 pages, 75056 bytes).
