@@ -23,7 +23,7 @@
 \contentsline {subsubsection}{\numberline {3.4.2}実験内容}{14\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.3}実験結果}{15\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.4}考察}{17\,\,\,}
-\contentsline {subsection}{\numberline {3.5}課題}{17\,\,\,}
-\contentsline {section}{\numberline {4}まとめ}{18\,\,\,}
-\contentsline {section}{\numberline {}{謝辞}}{19\,\,\,}
-\contentsline {section}{\numberline {}{参考文献}}{20\,\,\,}
+\contentsline {subsection}{\numberline {3.5}課題}{18\,\,\,}
+\contentsline {section}{\numberline {4}まとめ}{19\,\,\,}
+\contentsline {section}{\numberline {}{謝辞}}{20\,\,\,}
+\contentsline {section}{\numberline {}{参考文献}}{21\,\,\,}

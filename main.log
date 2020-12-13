@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  9 DEC 2020 17:29
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  13 DEC 2020 23:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/Hiroki/Desktop/git-projects/my-master-thesis/main
-(/Users/Hiroki/Desktop/git-projects/my-master-thesis/main.tex
+**main.tex
+(./main.tex
 pLaTeX2e <2018-07-28>+1 (based on LaTeX2e <2018-04-01> patch level 5)
 (/usr/local/texlive/2018/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2018/07/03 v1.8 Standard pLaTeX class
@@ -252,32 +252,34 @@ Overfull \hbox (96.17741pt too wide) in paragraph at lines 123--130
  [][] 
  []
 
-[16]) [17]
+[16]
+File: image/vsComputer_result.eps Graphic file (type eps)
+ <image/vsComputer_result.eps> [17]) [18]
 \openout2 = `4_conclusion.aux'.
 
- (./4_conclusion.tex) [18
+ (./4_conclusion.tex) [19
 
 
 ]
 \openout2 = `5_thanks.aux'.
 
- (./5_thanks.tex) [19
+ (./5_thanks.tex) [20
 
 
 ]
 \openout2 = `6_reference.aux'.
 
- (./6_reference.tex [20
+ (./6_reference.tex [21
 
 
-]) [21] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
+]) [22] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 1431 strings out of 493248
- 19174 string characters out of 6144402
- 95380 words of memory out of 5000000
- 5345 multiletter control sequences out of 15000+600000
+ 1434 strings out of 493248
+ 19128 string characters out of 6144402
+ 95392 words of memory out of 5000000
+ 5348 multiletter control sequences out of 15000+600000
  14334 words of font info for 56 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,9n,24p,1244b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,24p,1196b,390s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (25 pages, 75056 bytes).
+Output written on main.dvi (26 pages, 76124 bytes).
