@@ -21,9 +21,10 @@
 \contentsline {subsection}{\numberline {3.4}評価実験}{12\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.1}実験参加者}{14\,\,\,}
 \contentsline {subsubsection}{\numberline {3.4.2}実験内容}{14\,\,\,}
-\contentsline {subsubsection}{\numberline {3.4.3}実験結果}{15\,\,\,}
-\contentsline {subsubsection}{\numberline {3.4.4}考察}{19\,\,\,}
-\contentsline {subsection}{\numberline {3.5}課題}{21\,\,\,}
-\contentsline {section}{\numberline {4}まとめ}{22\,\,\,}
-\contentsline {section}{\numberline {}{謝辞}}{23\,\,\,}
-\contentsline {section}{\numberline {}{参考文献}}{24\,\,\,}
+\contentsline {subsubsection}{\numberline {3.4.3}アンケート結構}{15\,\,\,}
+\contentsline {subsubsection}{\numberline {3.4.4}コードログ分析結果}{17\,\,\,}
+\contentsline {subsubsection}{\numberline {3.4.5}考察}{22\,\,\,}
+\contentsline {subsection}{\numberline {3.5}課題}{22\,\,\,}
+\contentsline {section}{\numberline {4}まとめ}{24\,\,\,}
+\contentsline {section}{\numberline {}{謝辞}}{25\,\,\,}
+\contentsline {section}{\numberline {}{参考文献}}{26\,\,\,}

@@ -40,7 +40,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
 \subsection{プロトタイプシステム}
 初めに，提案システムをチームコミュニケーションツールであるSlackのbotとして実装した．システムを利用する際は，このbotを導入しているチャンネルでコマンドを入力することで各機能を使用できる．利用可能なコマンドを表\ref{function}に示す．またクイズ機能の様子を図\ref{prototype_quiz}に，占い機能の様子を図\ref{prototype_fortune}に示す．
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[width=0.6\linewidth]{image/prototype_quiz.eps}
   \end{center}
@@ -49,7 +49,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
   \label{prototype_quiz}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[width=0.6\linewidth]{image/prototype_fortune.eps}
   \end{center}
@@ -58,7 +58,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
   \label{prototype_fortune}
 \end{figure}
 
-\begin{table}[h]
+\begin{table}[!ht]
   \centering
     \caption{コマンド一覧}
       \begin{tabular}{|c|c|} \hline
@@ -90,7 +90,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
 
 各コマンドの使用回数を表\ref{command}に示す．
 
-\begin{table}[h]
+\begin{table}[!ht]
   \centering
   \caption{各コマンドの使用回数}
   \label{command}
@@ -107,7 +107,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
 コマンドの使用回数に関しては，クイズ機能に関連した機能が多い結果となり，占い機能に関しては使用回数が少なかった．また期間中の最初の3日間ほどは頻繁にシステムが使用されていたが，期間の後半おいてはあまり活発に使用されていなかった．またどの機能も個別に使用するより，ユーザが実際に会って集まっている際にコミュニケーションを交えて使用されることが多かった．
 
 次にアンケート結果を表\ref{interview}に示す．
-\begin{table}[h]
+\begin{table}[!ht]
   \centering
   \caption{アンケート結果}
   \label{interview}
@@ -127,7 +127,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
 プロトタイプシステムを用いたケーススタディで得られた結果を元に，プロトタイプシステムを改善し，Webアプリケーションとして再実装した．Webアプリケーションとして実装したのはSlack botよりも開けたコミュニティでより多くのユーザの意見を取り入れるためである．このアプリケーションでは指定のURLにアクセスすることでクイズ・占いの機能を使用でき，ユーザ登録をしログインすることでクイズ正解時に得た得点の累計によるユーザのランキングを閲覧することができる．またクイズ機能においてはそのクイズに対するユーザの正答率，占い機能においては選ばれたプログラムに含まれているコメントの量，宣言された関数の数などから独自に算出した対人運，仕事運，コメントなどを表示するようにした．クイズ機能の様子を\ref{quiz}に，占い機能の様子を\ref{fortune}に示す．
 また実装したアプリケーションをUbiquitous Wearable Workshop2019にて参加者に使用させた．占い・クイズ機能ともに使用され，表示されたプログラムを見せ合うなどシステムを介したコミュニケーションが見られたが，「クイズが難しすぎて逆にプログラムに対する抵抗感が生まれた」というコメントもあった．
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[width=1.0\linewidth]{image/quiz.eps}
   \end{center}
@@ -136,7 +136,7 @@ GitHubを活用した研究はいくつかある．永野らの研究\cite{nagan
   \label{quiz}
 \end{figure}
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \begin{center}
     \includegraphics[width=1.0\linewidth]{image/fortune.eps}
   \end{center}
