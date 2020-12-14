@@ -144,10 +144,10 @@
   \item コードログ分析結果
 
   練習期間中・対戦中にプログラマが記述したプログラムのログ，提出したプログラムを分析することで，システムがどのように利用されているか，どのようなプログラムが記述されているかを調査した．
-  まずvsComputerモードで使用されたプログラムの分析結果について述べる．このモードで使用されたコードは合計件である．全てのプログラムに含まれていたキーワード(演算子を除く)の個数をグラフ化したものを図\ref{vsComputer_keyword}に示す.もっとも多いキーワードはmyselfというものであるがこれは自キャラクタのインスタンスを代入するための変数として使われていた．プロトタイプシステムではプレイヤがplayer1になるかplayer2になるかがランダムに決定されていたため，それによってプログラムの内容を書き換えなくて済むように初めにmyselfに割り当てられたインスタンスを代入していたと思われる．次にplayer1というインスタンスを参照するキーワードが多く見られ，次いでインスタンスの座標を参照するキーワードであるy，条件分岐に用いられるifのキーワードが多く見られた．プログラムの内容を観察するとキャラクタの座標を参照し，その値によって処理を分岐するプログラムが多く見られ，キーワードの分析結果と一致した．また「0x」で始まるキーワードがいくつか散見されるが，これはプレイヤが難読化ツールを用いてプログラムの難読化を試みた際に現れたキーワードである．
+  まずvsComputerモードで使用されたプログラムの分析結果について述べる．このモードで使用されたコードは合計327件である．全てのプログラムに含まれていたキーワード(演算子を除く)の個数をグラフ化したものを図\ref{vsComputer_keyword}に示す.もっとも多いキーワードはmyselfというものであるがこれは自キャラクタのインスタンスを代入するための変数として使われていた．プロトタイプシステムではプレイヤがplayer1になるかplayer2になるかがランダムに決定されていたため，それによってプログラムの内容を書き換えなくて済むように初めにmyselfに割り当てられたインスタンスを代入していたと思われる．次にplayer1というインスタンスを参照するキーワードが多く見られ，次いでインスタンスの座標を参照するキーワードであるy，条件分岐に用いられるifのキーワードが多く見られた．プログラムの内容を観察するとキャラクタの座標を参照し，その値によって処理を分岐するプログラムが多く見られ，キーワードの分析結果と一致した．また「0x」で始まるキーワードがいくつか散見されるが，これはプレイヤが難読化ツールを用いてプログラムの難読化を試みた際に現れたキーワードである．
 
 
-  \begin{figure}[!h]
+  \begin{figure}[!ht]
     \begin{center}
       \includegraphics[width=1.0\linewidth]{image/vsComputer_result.eps}
     \end{center}
@@ -156,34 +156,77 @@
     \label{vsComputer_keyword}
   \end{figure}
 
-次にvsComputerで投稿された各プログラムとSLOCとパラメータをグラフ化したものを\ref{vsComputer_sloc_and_params}表示する．このグラフを観察すると前半の利用では，ユーザがゲームに習熟するにつれて記述したプログラムのSLOCが増加する傾向にあったのが分かる．中盤では難読化ツールが使用され，SLOCがあまり変動しなかった．その後難読化ツールの使用を禁止したため，SLOCが変動し減少している．
+次にvsComputerで投稿された各プログラムとSLOC・パラメータ数をグラフ化したものを図\ref{vsComputer_sloc_and_params}表示する．全体として徐々にSLOCが増加しており，ゲームに習熟するほどコードの量が長くなっていったのだと考えられる．またSLOCが平行線をたどり，パラメータの数が増加している部分は難読化ツールを使用した部分である．
 
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
   \begin{center}
-    \includegraphics[width=1.0\linewidth]{image/sloc_and_params.eps}
+    \includegraphics[width=1.0\linewidth]{image/vsComputer_escomplex_SLOC_params.eps}
   \end{center}
     \vspace{-8mm} 
-  \caption{vsComputerにおけるSLOCとパラメータ}
+  \caption{vsComputerにおけるSLOCとパラメータ数}
   \label{vsComputer_sloc_and_params}
 \end{figure}
 
-次にvsComputerにおける各プログラムの循環的複雑度を計測したグラフを図\ref{vsComputer_cyclomatic_complexity}示す．このグラフを観察すると循環的複雑度は10以下に収まっており，分岐によりプログラムの可読性を損なっていることはないと考えられる．
-\begin{figure}[!h]
+次にvsComputerにおける各プログラムの循環的複雑度を計測したグラフを図\ref{vsComputer_cyclomatic_complexity}示す．このグラフを観察すると循環的複雑度は11以下に収まっており，分岐によりプログラムの可読性を損なっていることはないと考えられる．
+
+\begin{figure}[!ht]
   \begin{center}
-    \includegraphics[width=1.0\linewidth]{image/complexity_and_density.eps}
+    \includegraphics[width=1.0\linewidth]{image/vsComputer_escomplex_complexity.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{vsComputerにおける循環的複雑度とその密度}
   \label{vsComputer_cyclomatic_complexity}
+\end{figure}
+
+次にvsPlayerにおいて使用されたプログラムの分析結果について述べる．このモードで使用されたコードは合計185件である．全てのプログラムに含まれていたキーワード(演算子を除く)の個数をグラフ化したものを図\ref{vsPlayer_keyword}に示す．vsPlayerにおいて多かったキーワードは上からmyself,if,yであり，vsComputerとプログラムの内容は大きく変わっていないと考えられる．
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[width=1.0\linewidth]{image/vsPlayer_result.eps}
+  \end{center}
+    \vspace{-8mm} 
+  \caption{vsPlayerにおけるキーワード分析}
+  \label{vsPlayer_keyword}
+\end{figure}
+
+また各プログラムとSLOC・パラメータ数をグラフ化したものを\ref{vsPlayer_sloc_and_params}表示する．
+
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[width=1.0\linewidth]{image/vsPlayer_escomplex_SLOC_params.eps}
+  \end{center}
+    \vspace{-8mm} 
+  \caption{vsPlayerにおけるSLOCとパラメータ数}
+  \label{vsPlayer_sloc_and_params}
+\end{figure}
+
+次にvsPlayerにおける各プログラムの循環的複雑度を計測したグラフを図\ref{vsPlayer_complexity}示す．vsPlayerにおいても循環的複雑度の最大値は11であり，複雑な分岐はプログラム内に見られなかった．
+
+\begin{figure}[!ht]
+  \begin{center}
+    \includegraphics[width=1.0\linewidth]{image/vsPlayer_escomplex_complexity.eps}
+  \end{center}
+    \vspace{-8mm} 
+  \caption{vsPlayerにおける循環的複雑度}
+  \label{vsPlayer_complexity}
 \end{figure}
 \end{enumerate}
 
 
 \subsubsection{考察}
 評価実験に関する考察について述べる．プログラマ同士の対戦においては，行動プログラミングフェイズで設定したappearanceについて「かわいい」などとコメントしていた．また対戦後にお互いのプログラムの内容や今までのプログラミング経験に関するコミュニケーションをとっており，システムを使用することでプログラマ同士のコミュニケーションを促進できていたと考えられる．
+また対戦を観察した結果，プレイヤがどうプログラムを変更するか悩んでいる時間が多いため，リアルタイムな観戦においては観戦者が飽きないようにするための工夫が必要だと感じた．なおコードの内容・戦略がやや一辺倒になっていたため，1つの強い戦略に収束してしまわないような工夫が必要である．各々のゲームに着目すると一方のプログラマの書いたプログラムが圧倒的に他方よりも強い場合は1ターンで決着がついてしまう場合があった．
 初学者の対戦の観戦においては，ライブでプログラマ同士が対戦している状況を用意することが困難であったため今回は動画を閲覧するという状況を用意したが，動画を見ただけでは実際に人が対戦しているという感覚が希薄であり，「プログラマがプログラミングしている」場面を見せるためには更なる工夫が必要であると感じた．
 また今回の評価実験において，システムに対する肯定的な評価が得られたものの，どのような要素が初学者のプログラミングに対する興味に影響を与えていたのか，特に提案システムにおいて独特な要素であるリアルタイムな駆け引き・アドリブを誘発する要素の影響について調査する必要があると考えられる．
 
 \subsection{課題}
+\begin{enumerate}
+  \item システムの改善
+
+  評価実験でのアンケート結果・コードログの分析結果を鑑みてより良いゲームデザインが必要であると感じた．まずパラメータバランスを調整し，1ターンで終わるなどすぐにゲームが終わって終わないようにする．またプレイヤ同士の対戦において圧倒的に力の差がある場合でも逆転できるような要素を加えることで，プレイヤ・観戦者がより楽しめるようにする．さらにこのゲームにおける強さがプログラマのスキルに比例し，かつ観戦者にとっても可読性の高いプログラムを表示できるよう，最大コード長に制限を設けたり，循環的複雑度の最大値に制限を儲けるなどの工夫を加える．またプロトタイプシステムではエラーを画面にそのまま表示するだけだったが，プレイヤを積極的にデバッグに向かわせる工夫を加える．これらの工夫に伴いUIを設計し直すとともにキャラクタのエフェクトも観戦に適切なものを採用する．
+
+  \item 今後の研究
+
+  今後はシステムに改善を加えつつもより多くのユーザを対象とし，ワークショップとシステム利用による効果の調査を繰り返す．習熟したプログラマだけでなく，プログラミング初学者にも提案システムのゲームをプレイさせ，そのプログラミングへの影響を調査する．特に本システムのリアルタイム性・アドリブによる効果を重点的に調査する．
+\end{enumerate}
 
