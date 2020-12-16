@@ -1,13 +1,16 @@
 \contentsline {section}{\numberline {1}はじめに}{1\,\,\,}
 \contentsline {section}{\numberline {2}コードリーディング支援システムに関する研究}{2\,\,\,}
 \contentsline {subsection}{\numberline {2.1}関連研究}{2\,\,\,}
+\contentsline {subsubsection}{\numberline {2.1.1}GitHubを利用した研究}{2\,\,\,}
+\contentsline {subsubsection}{\numberline {2.1.2}ゲーミフィケーションを活用した研究}{2\,\,\,}
+\contentsline {subsubsection}{\numberline {2.1.3}コードリーディング支援に関する研究}{3\,\,\,}
 \contentsline {subsection}{\numberline {2.2}設計指針}{3\,\,\,}
 \contentsline {subsection}{\numberline {2.3}提案システム}{4\,\,\,}
 \contentsline {subsubsection}{\numberline {2.3.1}実装機能}{4\,\,\,}
 \contentsline {subsection}{\numberline {2.4}プロトタイプシステム}{4\,\,\,}
 \contentsline {subsubsection}{\numberline {2.4.1}ケーススタディ}{5\,\,\,}
 \contentsline {subsection}{\numberline {2.5}Webアプリケーション}{7\,\,\,}
-\contentsline {subsection}{\numberline {2.6}課題と考察}{9\,\,\,}
+\contentsline {subsection}{\numberline {2.6}課題と考察}{8\,\,\,}
 \contentsline {section}{\numberline {3}競技性・観戦性を拡張したプログラミングゲームの開発}{10\,\,\,}
 \contentsline {subsection}{\numberline {3.1}関連研究・関連システム}{10\,\,\,}
 \contentsline {subsubsection}{\numberline {3.1.1}プログラミングを用いたエンタテインメントシステム}{10\,\,\,}
