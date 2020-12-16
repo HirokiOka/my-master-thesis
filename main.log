@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  16 DEC 2020 17:02
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  16 DEC 2020 17:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -237,50 +237,44 @@ File: image/fortune.eps Graphic file (type eps)
 \openout2 = `3_livecode_STG.aux'.
 
  (./3_livecode_STG.tex
-Overfull \hbox (4.2213pt too wide) in paragraph at lines 16--17
+Overfull \hbox (4.2213pt too wide) in paragraph at lines 18--19
 []\JY1/mc/m/n/12 初学者向けプログラミング学習支援システムは数多く存在する ． \OT1/cmr/m/n/12 Scratch[[]],Viscuit[[]]
  []
 
 [10
 
 
-] [11] [12]
+] [11]
+File: image/phase.eps Graphic file (type eps)
+ <image/phase.eps> [12]
 File: image/characterProgramming.eps Graphic file (type eps)
  <image/characterProgramming.eps>
 File: image/actionProgramming.eps Graphic file (type eps)
- <image/actionProgramming.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13]
+ <image/actionProgramming.eps> [13] [14]
 File: image/game.eps Graphic file (type eps)
- <image/game.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14] [15]
-Overfull \hbox (61.24593pt too wide) in paragraph at lines 102--110
+ <image/game.eps> [15]
+Overfull \hbox (61.24593pt too wide) in paragraph at lines 112--120
  [][] 
  []
 
 [16]
-Overfull \hbox (96.17741pt too wide) in paragraph at lines 127--134
+Overfull \hbox (96.17741pt too wide) in paragraph at lines 137--144
  [][] 
  []
 
 [17] [18]
 File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps>
+ <image/vsComputer_result.eps> [19]
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
  <image/vsComputer_escomplex_SLOC_params.eps>
 File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsComputer_escomplex_complexity.eps> [19]
+ <image/vsComputer_escomplex_complexity.eps> [20]
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps> [20]
+ <image/vsPlayer_escomplex_SLOC_params.eps> [21]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [21] [22] [23]) [24]
+ <image/vsPlayer_escomplex_complexity.eps> [22] [23]) [24]
 \openout2 = `4_conclusion.aux'.
 
  (./4_conclusion.tex) [25
@@ -302,17 +296,14 @@ File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 3088 strings out of 493248
- 41461 string characters out of 6144402
- 152046 words of memory out of 5000000
- 6980 multiletter control sequences out of 15000+600000
+ 3094 strings out of 493248
+ 41540 string characters out of 6144402
+ 160067 words of memory out of 5000000
+ 6985 multiletter control sequences out of 15000+600000
  15154 words of font info for 60 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,9n,32p,1196b,1729s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,1196b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (32 pages, 101528 bytes).
+Output written on main.dvi (32 pages, 102108 bytes).
