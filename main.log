@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  15 DEC 2020 15:16
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  16 DEC 2020 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -206,9 +206,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (./2_code_reading.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 4.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
  [2
 
 
@@ -217,17 +217,17 @@ File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
 File: image/prototype_fortune.eps Graphic file (type eps)
  <image/prototype_fortune.eps> [4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 79.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 85.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
- [5] [6]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+ [5] [6] [7]
 File: image/quiz.eps Graphic file (type eps)
  <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
- <image/fortune.eps>) [7] [8]
+ <image/fortune.eps>) [8] [9]
 \openout2 = `3_livecode_STG.aux'.
 
  (./3_livecode_STG.tex
@@ -235,17 +235,17 @@ Overfull \hbox (4.2213pt too wide) in paragraph at lines 10--11
 []\JY1/mc/m/n/12 初学者向けプログラミング学習支援システムは数多く存在する ． \OT1/cmr/m/n/12 Scratch[[]],Viscuit[[]]
  []
 
-[9
+[10
 
 
-] [10]
+] [11]
 File: image/characterProgramming.eps Graphic file (type eps)
  <image/characterProgramming.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: image/actionProgramming.eps Graphic file (type eps)
-<image/actionProgramming.eps> [11]
+<image/actionProgramming.eps> [12]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -254,54 +254,54 @@ File: image/game.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] [13]
+[13] [14]
 Overfull \hbox (61.24593pt too wide) in paragraph at lines 96--104
  [][] 
  []
 
-[14] [15]
+[15] [16]
 Overfull \hbox (96.17741pt too wide) in paragraph at lines 121--128
  [][] 
  []
 
-[16]
+[17]
 File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps> [17]
+ <image/vsComputer_result.eps> [18]
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
  <image/vsComputer_escomplex_SLOC_params.eps>
 File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsComputer_escomplex_complexity.eps> [18]
+ <image/vsComputer_escomplex_complexity.eps> [19]
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps> [19]
+ <image/vsPlayer_escomplex_SLOC_params.eps> [20]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [20] [21] [22]) [23]
+ <image/vsPlayer_escomplex_complexity.eps> [21] [22] [23]) [24]
 \openout2 = `4_conclusion.aux'.
 
- (./4_conclusion.tex) [24
+ (./4_conclusion.tex) [25
 
 
 ]
 \openout2 = `5_thanks.aux'.
 
- (./5_thanks.tex) [25
+ (./5_thanks.tex) [26
 
 
 ]
 \openout2 = `6_reference.aux'.
 
- (./6_reference.tex [26
+ (./6_reference.tex [27
 
 
-]) [27] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
+]) [28] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux)) ) 
 Here is how much of TeX's memory you used:
- 3084 strings out of 493248
- 41428 string characters out of 6144402
- 192033 words of memory out of 5000000
- 6976 multiletter control sequences out of 15000+600000
+ 3085 strings out of 493248
+ 41437 string characters out of 6144402
+ 191038 words of memory out of 5000000
+ 6977 multiletter control sequences out of 15000+600000
  15154 words of font info for 60 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,9n,32p,1196b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (31 pages, 94408 bytes).
+Output written on main.dvi (32 pages, 96748 bytes).
