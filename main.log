@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  17 DEC 2020 11:54
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  17 DEC 2020 14:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,30 +254,30 @@ File: image/actionProgramming.eps Graphic file (type eps)
 File: image/game.eps Graphic file (type eps)
  <image/game.eps> [15]
 Overfull \hbox (61.24593pt too wide) in paragraph at lines 113--121
- [][] 
+ [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16]
-Overfull \hbox (96.17741pt too wide) in paragraph at lines 138--145
+Overfull \hbox (3.70444pt too wide) in paragraph at lines 139--147
  [][] 
  []
 
 [17] [18]
 File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps>
+ <image/vsComputer_result.eps> [19]
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsComputer_escomplex_SLOC_params.eps> [19]
+ <image/vsComputer_escomplex_SLOC_params.eps>
 File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
  <image/vsComputer_escomplex_complexity.eps> [20]
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps>
+ <image/vsPlayer_escomplex_SLOC_params.eps> [21]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [21] [22] [23] [24]) [25]
+ <image/vsPlayer_escomplex_complexity.eps> [22] [23] [24]) [25]
 \openout2 = `4_conclusion.aux'.
 
  (./4_conclusion.tex) [26
@@ -307,6 +307,6 @@ Here is how much of TeX's memory you used:
  6985 multiletter control sequences out of 15000+600000
  15154 words of font info for 60 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,9n,32p,1372b,1728s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,9n,32p,1372b,1725s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (33 pages, 103412 bytes).
+Output written on main.dvi (33 pages, 105036 bytes).
