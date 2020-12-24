@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  21 DEC 2020 14:41
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  24 DEC 2020 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -145,7 +145,7 @@ Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
 )
 \leftcolumn=\skip57
 \rightcolumn=\skip58
- (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
+ (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./1_2research_guidelines.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
@@ -185,11 +185,11 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 3.
+(Font)              <12> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
+(Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
+(Font)              <6> on input line 4.
  [3
 
 ])
@@ -202,6 +202,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  (./1_introduction.tex [1
 
 ]) [2]
+\openout2 = `1_2research_guidelines.aux'.
+
+ (./1_2research_guidelines.tex [3
+
+
+]) [4]
 \openout2 = `2_code_reading.aux'.
 
  (./2_code_reading.tex
@@ -209,10 +215,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 10.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 10.
- [3
+ [5
 
 
-] [4]
+] [6]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 49.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -222,18 +228,18 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
 File: image/prototype_fortune.eps Graphic file (type eps)
- <image/prototype_fortune.eps> [5]
+ <image/prototype_fortune.eps> [7]
 Overfull \vbox (17.70197pt too high) has occurred while \output is active []
 
- [6] [7]
+ [8] [9]
 
-LaTeX Warning: Reference `uww2019' on page 8\,\,\, undefined on input line 148.
+LaTeX Warning: Reference `uww2019' on page 10\,\,\, undefined on input line 148.
 
-[8]
+[10]
 File: image/quiz.eps Graphic file (type eps)
  <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
- <image/fortune.eps>) [9] [10]
+ <image/fortune.eps>) [11] [12]
 \openout2 = `3_livecode_STG.aux'.
 
  (./3_livecode_STG.tex
@@ -241,18 +247,18 @@ Overfull \hbox (4.2213pt too wide) in paragraph at lines 18--19
 []\JY1/mc/m/n/12 初学者向けプログラミング学習支援システムは数多く存在する ． \OT1/cmr/m/n/12 Scratch[[]],Viscuit[[]]
  []
 
-[11
+[13
 
 
-] [12]
+] [14]
 File: image/phase.eps Graphic file (type eps)
- <image/phase.eps> [13]
+ <image/phase.eps> [15]
 File: image/characterProgramming.eps Graphic file (type eps)
- <image/characterProgramming.eps> [14]
+ <image/characterProgramming.eps> [16]
 File: image/actionProgramming.eps Graphic file (type eps)
- <image/actionProgramming.eps> [15]
+ <image/actionProgramming.eps> [17]
 File: image/game.eps Graphic file (type eps)
- <image/game.eps> [16]
+ <image/game.eps> [18]
 Overfull \hbox (61.24593pt too wide) in paragraph at lines 113--121
  [] 
  []
@@ -260,33 +266,33 @@ Overfull \hbox (61.24593pt too wide) in paragraph at lines 113--121
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17]
+[19]
 Overfull \hbox (3.70444pt too wide) in paragraph at lines 139--147
  [][] 
  []
 
-[18] [19]
+[20] [21]
 File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps> [20]
+ <image/vsComputer_result.eps> [22]
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
  <image/vsComputer_escomplex_SLOC_params.eps>
 File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsComputer_escomplex_complexity.eps> [21]
+ <image/vsComputer_escomplex_complexity.eps> [23]
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps> [22]
+ <image/vsPlayer_escomplex_SLOC_params.eps> [24]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [23] [24] [25]) [26]
+ <image/vsPlayer_escomplex_complexity.eps> [25] [26] [27]) [28]
 \openout2 = `4_conclusion.aux'.
 
- (./4_conclusion.tex) [27
+ (./4_conclusion.tex) [29
 
 
 ]
 \openout2 = `5_thanks.aux'.
 
- (./5_thanks.tex) [28
+ (./5_thanks.tex) [30
 
 
 ]
@@ -297,21 +303,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 \OT1/cmtt/m/n/12 jp / a _ menu / shotou / zyouhou / detail / _ _ icsFiles / afieldfile / 2018 / 08 / 10 /
  []
 
-[29
+[31
 
 
-]) [30] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
+]) [32] (./main.aux (./0_abstract.aux) (./1_introduction.aux) (./1_2research_guidelines.aux) (./2_code_reading.aux) (./3_livecode_STG.aux) (./4_conclusion.aux) (./5_thanks.aux) (./6_reference.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3097 strings out of 493248
- 41566 string characters out of 6144402
- 187080 words of memory out of 5000000
- 6988 multiletter control sequences out of 15000+600000
+ 3105 strings out of 493248
+ 41775 string characters out of 6144402
+ 187473 words of memory out of 5000000
+ 6989 multiletter control sequences out of 15000+600000
  15154 words of font info for 60 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,9n,32p,1372b,1725s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (34 pages, 109496 bytes).
+Output written on main.dvi (36 pages, 114088 bytes).
