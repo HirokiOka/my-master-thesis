@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  30 DEC 2020 11:23
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  30 DEC 2020 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -224,26 +224,26 @@ Overfull \hbox (35.73045pt too wide) in paragraph at lines 43--53
 
  (./3_code_reading.tex
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 11.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 5.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 11.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 5.
  [5
 
 
 ] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 50.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
  [7]
 File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
 File: image/prototype_fortune.eps Graphic file (type eps)
  <image/prototype_fortune.eps> [8] [9] [10]
 
-LaTeX Warning: Reference `uww2019' on page 11\,\,\, undefined on input line 149.
+LaTeX Warning: Reference `uww2019' on page 11\,\,\, undefined on input line 150.
 
 File: image/quiz.eps Graphic file (type eps)
 <image/quiz.eps>
@@ -251,29 +251,29 @@ File: image/fortune.eps Graphic file (type eps)
  <image/fortune.eps>) [11] [12]
 \openout2 = `4_livecode_STG.aux'.
 
- (./4_livecode_STG.tex
-Overfull \hbox (4.2213pt too wide) in paragraph at lines 17--18
+ (./4_livecode_STG.tex [13
+
+
+]
+Overfull \hbox (4.2213pt too wide) in paragraph at lines 18--19
 []\JY1/mc/m/n/12 初学者向けプログラミング学習支援システムは数多く存在する ． \OT1/cmr/m/n/12 Scratch[[]],Viscuit[[]]
  []
 
-[13
-
-
-] [14] [15]
+[14] [15]
 File: image/phase.eps Graphic file (type eps)
- <image/phase.eps>
+ <image/phase.eps> [16]
 File: image/characterProgramming.eps Graphic file (type eps)
- <image/characterProgramming.eps> [16]
+ <image/characterProgramming.eps> [17]
 File: image/actionProgramming.eps Graphic file (type eps)
- <image/actionProgramming.eps> [17]
+ <image/actionProgramming.eps>
 File: image/game.eps Graphic file (type eps)
  <image/game.eps> [18] [19]
-Overfull \hbox (61.24593pt too wide) in paragraph at lines 118--126
+Overfull \hbox (61.24593pt too wide) in paragraph at lines 119--127
  [] 
  []
 
 [20]
-Overfull \hbox (3.70444pt too wide) in paragraph at lines 144--152
+Overfull \hbox (3.70444pt too wide) in paragraph at lines 145--153
  [][] 
  []
 
@@ -287,9 +287,9 @@ File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps>
+ <image/vsPlayer_escomplex_SLOC_params.eps> [24]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [24] [25] [26] [27] [28]) [29]
+ <image/vsPlayer_escomplex_complexity.eps> [25] [26] [27] [28]) [29]
 \openout2 = `5_conclusion.aux'.
 
  (./5_conclusion.tex) [30
@@ -324,6 +324,6 @@ Here is how much of TeX's memory you used:
  6999 multiletter control sequences out of 15000+600000
  15916 words of font info for 63 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,13n,32p,1634b,1729s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,13n,32p,1634b,1212s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (40 pages, 129652 bytes).
+Output written on main.dvi (40 pages, 131984 bytes).
