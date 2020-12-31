@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  31 DEC 2020 20:40
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  31 DEC 2020 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -189,10 +189,10 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 9.
-) [1
+ [1
 
 
-] [2] (./main.toc
+]) [2] (./main.toc
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
@@ -231,24 +231,24 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 
 
 ] [6]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 53.
  (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 53.
  [7]
 File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
 File: image/prototype_fortune.eps Graphic file (type eps)
  <image/prototype_fortune.eps> [8] [9] [10]
 
-LaTeX Warning: Reference `uww2019' on page 11\,\,\, undefined on input line 150.
+LaTeX Warning: Reference `uww2019' on page 11\,\,\, undefined on input line 161.
 
 File: image/quiz.eps Graphic file (type eps)
 <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
- <image/fortune.eps>) [11] [12]
+ <image/fortune.eps> [11]) [12]
 \openout2 = `4_livecode_STG.aux'.
 
  (./4_livecode_STG.tex [13
@@ -268,28 +268,28 @@ File: image/actionProgramming.eps Graphic file (type eps)
  <image/actionProgramming.eps>
 File: image/game.eps Graphic file (type eps)
  <image/game.eps> [18] [19]
-Overfull \hbox (61.24593pt too wide) in paragraph at lines 119--127
+Overfull \hbox (61.24593pt too wide) in paragraph at lines 131--139
  [] 
  []
 
 [20]
-Overfull \hbox (3.70444pt too wide) in paragraph at lines 146--154
+Overfull \hbox (3.70444pt too wide) in paragraph at lines 161--169
  [][] 
  []
 
 [21] [22]
 File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps> [23]
+ <image/vsComputer_result.eps>
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsComputer_escomplex_SLOC_params.eps>
+ <image/vsComputer_escomplex_SLOC_params.eps> [23]
 File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsComputer_escomplex_complexity.eps>
+ <image/vsComputer_escomplex_complexity.eps> [24]
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps>
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps> [24]
+ <image/vsPlayer_escomplex_SLOC_params.eps> [25]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [25] [26] [27] [28] [29]) [30]
+ <image/vsPlayer_escomplex_complexity.eps> [26] [27] [28] [29]) [30]
 \openout2 = `5_conclusion.aux'.
 
  (./5_conclusion.tex) [31
@@ -318,12 +318,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3123 strings out of 493248
- 41953 string characters out of 6144402
- 177869 words of memory out of 5000000
- 7000 multiletter control sequences out of 15000+600000
+ 3122 strings out of 493248
+ 41947 string characters out of 6144402
+ 187865 words of memory out of 5000000
+ 6999 multiletter control sequences out of 15000+600000
  15916 words of font info for 63 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,13n,32p,1710b,1726s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,13n,32p,1710b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (41 pages, 135644 bytes).
+Output written on main.dvi (41 pages, 134916 bytes).
