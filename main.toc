@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {3.5}プロトタイプシステム}{8\,\,\,}
 \contentsline {subsubsection}{\numberline {3.5.1}ケーススタディ}{8\,\,\,}
 \contentsline {subsection}{\numberline {3.6}Webアプリケーション}{11\,\,\,}
-\contentsline {subsection}{\numberline {3.7}課題と考察}{11\,\,\,}
+\contentsline {subsection}{\numberline {3.7}課題と考察}{12\,\,\,}
 \contentsline {section}{\numberline {4}競技性・観戦性を拡張したプログラミングゲームの開発}{14\,\,\,}
 \contentsline {subsection}{\numberline {4.1}研究背景}{14\,\,\,}
 \contentsline {subsection}{\numberline {4.2}関連研究・関連システム}{14\,\,\,}
