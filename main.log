@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  1 JAN 2021 13:07
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  1 JAN 2021 13:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -165,9 +165,6 @@ LaTeX Font Info:    ... okay on input line 64.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
 \c@lstlisting=\count111
- [1
-
-]
 \openout2 = `open.aux'.
 
  (./open.tex
@@ -177,7 +174,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
- [0
+ [1
+
 
 ])
 \c@theorem=\count112
@@ -324,9 +322,6 @@ Underfull \hbox (badness 3568) in paragraph at lines 29--30
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  3122 strings out of 493248
@@ -337,4 +332,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  32i,13n,32p,1710b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (42 pages, 136588 bytes).
+Output written on main.dvi (41 pages, 136524 bytes).
