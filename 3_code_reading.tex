@@ -58,7 +58,7 @@ GitHubを活用した研究はいくつかある．Emitzaらの研究\cite{guzma
 \end{itemize}
 
 \subsection{プロトタイプシステム}
-初めに，提案システムをチームコミュニケーションツールであるSlackのbotとして実装した．システムを利用する際は，このbotを導入しているチャンネルでコマンドを入力することで各機能を使用できる．利用可能なコマンドを表\ref{function}に示す．また表示するプログラムは内容が1つのファイルにまとまっていることが望ましいため，GitHub Gistからプログラムを取得した．またクイズ機能を使用している様子を図\ref{prototype_quiz}に，占い機能を使用している様子を図\ref{prototype_fortune}に示す．
+初めに，提案システムをチームコミュニケーションツールであるSlackのbotとして実装した．システムを利用する際は，このbotを導入しているチャンネルでコマンドを入力することで各機能を使用できる．利用可能なコマンドを表\ref{function}に示す．
 
 \begin{table}[!ht]
   \centering
@@ -74,16 +74,18 @@ GitHubを活用した研究はいくつかある．Emitzaらの研究\cite{guzma
     \label{function}
   \end{table}
 
-\begin{figure}[!ht]
+  また表示するプログラムは内容が1つのファイルにまとまっていることが望ましいため，GitHub Gistからプログラムを取得した．またクイズ機能を使用している様子を図\ref{prototype_quiz}に，占い機能を使用している様子を図\ref{prototype_fortune}に示す．
+
+\begin{figure}[!h]
   \begin{center}
-    \includegraphics[width=0.6\linewidth]{image/prototype_quiz.eps}
+    \includegraphics[width=0.4\linewidth]{image/prototype_quiz.eps}
   \end{center}
-    % \vspace{-8mm} 
+    \vspace{-8mm} 
   \caption{クイズ機能の様子}
   \label{prototype_quiz}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[!h]
   \begin{center}
     \includegraphics[width=0.6\linewidth]{image/prototype_fortune.eps}
   \end{center}
@@ -94,7 +96,7 @@ GitHubを活用した研究はいくつかある．Emitzaらの研究\cite{guzma
 
 
 \subsubsection{ケーススタディ}
-このシステムを筆者が所属する研究室で運用しているSlackのチャンネルに導入し，研究室のメンバーを対象としたケーススタディを行った．研究室のメンバーは3名のプログラミング初学者であり，主にJavaScrtipやGoogle Apps Scriptを使用している．ケーススタディの内容としては，1週間自由に機能を使用してもらい各コマンドの使用回数を調べた．またアンケートによって所感を調査した．アンケートの項目を以下に示す．
+このシステムを筆者が所属する研究室で運用しているSlackのチャンネルに導入し，研究室のメンバーを対象としたケーススタディを行った．研究室のメンバーは3名のプログラミング初学者であり，主にJavaScrtipやGoogle Apps Scriptを使用している．ケーススタディの内容としては，1週間自由に機能を使用してもらい各コマンドの使用回数を調べ，アンケートによって所感を調査した．アンケートの項目を以下に示す．
 
 \begin{itemize}
   \item どういう状況で機能を使用したか
@@ -109,9 +111,9 @@ GitHubを活用した研究はいくつかある．Emitzaらの研究\cite{guzma
   \item 感想，意見,改善点など
 \end{itemize}
 
-各コマンドの使用回数を表\ref{command}に示す．
+また各コマンドの使用回数を表\ref{command}に示す．
 
-\begin{table}[!ht]
+\begin{table}[H]
   \centering
   \caption{各コマンドの使用回数}
   \label{command}
@@ -153,27 +155,29 @@ GitHubを活用した研究はいくつかある．Emitzaらの研究\cite{guzma
 \subsection{Webアプリケーション}
 プロトタイプシステムを用いたケーススタディで得られた結果を元に，プロトタイプシステムを改善し，Webアプリケーションとして再実装した．Webアプリケーションとして実装したのはSlack botよりも開けたコミュニティでより多くのユーザの意見を取り入れるためである．
 
-このアプリケーションでは指定のURLにアクセスすることでクイズ・占いの機能を使用でき，ユーザ登録をしログインすることでクイズ正解時に得た得点の累計によるユーザのランキングを閲覧することができる．またクイズ機能においてはそのクイズに対するユーザの正答率，占い機能においては選ばれたプログラムに含まれているコメントの量，宣言された関数の数などから独自に算出した対人運，仕事運，コメントなどを表示するようにした．クイズ機能の様子を\ref{quiz}に，占い機能の様子を\ref{fortune}に示す．
+このアプリケーションでは指定のURLにアクセスすることでクイズ・占いの機能を使用でき，ユーザ登録をしログインすることでクイズ正解時に得た得点の累計によるユーザのランキングを閲覧することができる．またクイズ機能においてはそのクイズに対するユーザの正答率，占い機能においては選ばれたプログラムに含まれているコメントの量，宣言された関数の数などから独自に算出した対人運，仕事運，コメントなどを表示するようにした．クイズ機能の様子を図\ref{quiz}に，占い機能の様子を図\ref{fortune}に示す．
 
-また実装したアプリケーションをUbiquitous Wearable Workshop2019\ref{uww2019}にて参加者に使用させ，議論を行った．占い・クイズ機能ともに使用され，表示されたプログラムを見せ合うなどシステムを介したコミュニケーションが見られたが，「クイズが難しすぎて逆にプログラムに対する抵抗感が生まれた」というコメントもあった．
-
-\begin{figure}[!ht]
+\begin{figure}[H]
   \begin{center}
-    \includegraphics[width=1.0\linewidth]{image/quiz.eps}
+    \includegraphics[width=0.8\linewidth]{image/quiz.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{クイズ機能の様子}
   \label{quiz}
 \end{figure}
 
-\begin{figure}[!ht]
+\begin{figure}[H]
   \begin{center}
-    \includegraphics[width=1.0\linewidth]{image/fortune.eps}
+    \includegraphics[width=0.8\linewidth]{image/fortune.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{占い機能の様子}
   \label{fortune}
 \end{figure}
+
+また実装したアプリケーションをUbiquitous Wearable Workshop2019\ref{uww2019}にて参加者に使用させ，議論を行った．占い・クイズ機能ともに使用され，表示されたプログラムを見せ合うなどシステムを介したコミュニケーションが見られたが，「クイズが難しすぎて逆にプログラムに対する抵抗感が生まれた」というコメントもあった．
+
+
 
 
 \subsection{課題と考察}
