@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  2 JAN 2021 10:02
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  2 JAN 2021 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -152,7 +152,7 @@ Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
 )
 \leftcolumn=\skip57
 \rightcolumn=\skip58
- (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux))
+ (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
@@ -250,7 +250,11 @@ File: image/prototype_fortune.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8] [9] [10]
+[8]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[9] [10]
 File: image/quiz.eps Graphic file (type eps)
  <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
@@ -282,15 +286,12 @@ Overfull \hbox (61.24593pt too wide) in paragraph at lines 134--142
  [] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20]
+[20] [21]
 Overfull \hbox (3.70444pt too wide) in paragraph at lines 164--172
  [][] 
  []
 
-[21] [22]
+[22]
 File: image/vsComputer_result.eps Graphic file (type eps)
  <image/vsComputer_result.eps> [23]
 File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
@@ -300,9 +301,9 @@ File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
 File: image/vsPlayer_result.eps Graphic file (type eps)
  <image/vsPlayer_result.eps> [25]
 File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps>
+ <image/vsPlayer_escomplex_SLOC_params.eps> [26]
 File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps> [26] [27] [28] [29]) [30]
+ <image/vsPlayer_escomplex_complexity.eps> [27] [28] [29]) [30]
 \openout2 = `5_conclusion.aux'.
 
  (./5_conclusion.tex) [31
@@ -330,18 +331,24 @@ Underfull \hbox (badness 3568) in paragraph at lines 31--32
 []\OT1/cmr/m/n/12 Ubiquitous Wear-able Work-shop 2019, $\OT1/cmtt/m/n/12 http : / / cse . eedept . kobe-[]u . ac . jp /
  []
 
-[34]) [35] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux))
+[34]) [35]
+\openout2 = `8_presentations.aux'.
+
+ (./8_presentations.tex) [36
+
+
+] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3187 strings out of 493248
- 42922 string characters out of 6144402
- 156400 words of memory out of 5000000
- 7056 multiletter control sequences out of 15000+600000
+ 3198 strings out of 493248
+ 43096 string characters out of 6144402
+ 163820 words of memory out of 5000000
+ 7060 multiletter control sequences out of 15000+600000
  15916 words of font info for 63 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 32i,13n,32p,1710b,1669s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,13n,32p,1712b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (40 pages, 137316 bytes).
+Output written on main.dvi (41 pages, 138336 bytes).
