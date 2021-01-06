@@ -207,7 +207,7 @@
 
 \begin{figure}[H]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{image/vsComputer_result.eps}
+    \includegraphics[width=0.9\linewidth]{image/vsComputer_keyword.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{vsComputerにおけるキーワード分析}
@@ -219,25 +219,25 @@
 プログラムの内容を観察するとキャラクタの座標を参照し，その値によって処理を分岐するプログラムが多く見られ，キーワードの分析結果と一致した．また「0x」で始まるキーワードがいくつか散見されるが，これはプレイヤが難読化ツールを用いてプログラムの難読化を試みた際に現れたキーワードである．
 
 
-次にvsComputerモードで投稿された各プログラムとSLOC・パラメータ数をグラフ化したものを図\ref{vsComputer_sloc_and_params}表示する．全体として徐々にSLOCが増加する傾向にあり，ゲームに習熟するほどコードの量が長くなっていったのだと考えられるが，無尽蔵にコードの量が増えていく傾向は見られなかった．しかし最大で30行前後のプログラムを初学者が短い時間で読解できるかは議論の余地がある．
+次にvsComputerモードで投稿された各プログラムとSLOCをグラフ化したものを図\ref{vsComputer_sloc_and_params}表示する．全体として徐々にSLOCが増加する傾向にあり，ゲームに習熟するほどコードの量が長くなっていったのだと考えられるが，無尽蔵にコードの量が増えていく傾向は見られなかった．しかし最大で30行前後のプログラムを初学者が短い時間で読解できるかは議論の余地がある．
 
-またSLOCが平行線をたどり，パラメータの数が増加している部分はプレイヤが難読化ツールを使用した部分である．
+またSLOCが平行線をたどっている部分はプレイヤが難読化ツールを使用した部分である．
 
 
-\begin{figure}[!b]
+\begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{image/vsComputer_escomplex_SLOC_params.eps}
+    \includegraphics[width=0.9\linewidth]{image/vsComputer_sloc.eps}
   \end{center}
     \vspace{-8mm} 
-  \caption{vsComputerにおけるSLOCとパラメータ数}
+  \caption{vsComputerにおけるSLOC}
   \label{vsComputer_sloc_and_params}
 \end{figure}
 
 次にvsComputerモードにおける各プログラムごとの循環的複雑度を計測したグラフを図\ref{vsComputer_cyclomatic_complexity}示す．このグラフを観察すると各プログラムの循環的複雑度は概ね10以下に収まっていた．McCabeによると循環的複雑度が10を超えるプログラムはモジュール化などの工夫が必要であると述べられているため，今回分析したプログラムは分岐によりプログラムの可読性を大きく損なっていることはないと考えられるが，プログラムを実行する際に循環的複雑度が大きいと実行できないといったような制限を設け，プログラムの可読性が下がらないようにする工夫を設けても良いかもしれない．
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{image/vsComputer_escomplex_complexity.eps}
+    \includegraphics[width=0.9\linewidth]{image/vsComputer_cyclomatic.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{vsComputerにおける循環的複雑度とその密度}
@@ -250,9 +250,9 @@
 
 全てのプログラムに含まれていたキーワード(演算子を除く)の個数をグラフ化したものを図\ref{vsPlayer_keyword}に示す．
 
-\begin{figure}[H]
+\begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{image/vsPlayer_result.eps}
+    \includegraphics[width=0.9\linewidth]{image/vsPlayer_keyword.eps}
   \end{center}
     \vspace{-8mm} 
   \caption{vsPlayerにおけるキーワード分析}
@@ -261,25 +261,25 @@
 
 vsPlayerモードにおいて多かったキーワードは上からmyself,if,yであり，vsComputerモードと同様の傾向が見られた．プログラムの内容もvsComputerモードでのプログラムと大きく変わっておらず，対人戦で使用するプログラムをvsComputerモードで試していたと考えられる．
 
-また各プログラムとSLOC・パラメータ数をグラフ化したものを図\ref{vsPlayer_sloc_and_params}表示する．
+また各プログラムとSLOCをグラフ化したものを図\ref{vsPlayer_sloc_and_params}表示する．
 
-\begin{figure}[!b]
+\begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=0.9\linewidth]{image/vsPlayer_escomplex_SLOC_params.eps}
+    \includegraphics[width=0.9\linewidth]{image/vsPlayer_sloc.eps}
   \end{center}
     \vspace{-8mm} 
-  \caption{vsPlayerにおけるSLOCとパラメータ数}
+  \caption{vsPlayerにおけるSLOC}
   \label{vsPlayer_sloc_and_params}
 \end{figure}
 
 次にvsPlayerにおける各プログラムの循環的複雑度を計測したグラフを図\ref{vsPlayer_complexity}示す．vsPlayerにおいても循環的複雑度の最大値は11であり，複雑な分岐はプログラム内に見られなかった．
 
-\begin{figure}[!h]
+\begin{figure}[!htb]
   \begin{center}
-    \includegraphics[width=1.0\linewidth]{image/vsPlayer_escomplex_complexity.eps}
+    \includegraphics[width=1.0\linewidth]{image/vsPlayer_cyclomatic.eps}
   \end{center}
     \vspace{-8mm} 
-  \caption{vsPlayerにおける循環的複雑度}
+  \caption{vsPlayerにおける循環的複雑度とその密度}
   \label{vsPlayer_complexity}
 \end{figure}
 

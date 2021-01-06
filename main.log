@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  6 JAN 2021 11:05
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  6 JAN 2021 13:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,25 +283,18 @@ Overfull \hbox (3.70444pt too wide) in paragraph at lines 175--183
  []
 
 [22]
-File: image/vsComputer_result.eps Graphic file (type eps)
- <image/vsComputer_result.eps> [23]
-File: image/vsComputer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsComputer_escomplex_SLOC_params.eps> [24]
-File: image/vsComputer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsComputer_escomplex_complexity.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: image/vsPlayer_result.eps Graphic file (type eps)
-<image/vsPlayer_result.eps> [25]
-File: image/vsPlayer_escomplex_SLOC_params.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_SLOC_params.eps>
-File: image/vsPlayer_escomplex_complexity.eps Graphic file (type eps)
- <image/vsPlayer_escomplex_complexity.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[26] [27] [28] [29]) [30]
+File: image/vsComputer_keyword.eps Graphic file (type eps)
+ <image/vsComputer_keyword.eps> [23]
+File: image/vsComputer_sloc.eps Graphic file (type eps)
+ <image/vsComputer_sloc.eps> [24]
+File: image/vsComputer_cyclomatic.eps Graphic file (type eps)
+ <image/vsComputer_cyclomatic.eps>
+File: image/vsPlayer_keyword.eps Graphic file (type eps)
+ <image/vsPlayer_keyword.eps> [25]
+File: image/vsPlayer_sloc.eps Graphic file (type eps)
+ <image/vsPlayer_sloc.eps>
+File: image/vsPlayer_cyclomatic.eps Graphic file (type eps)
+ <image/vsPlayer_cyclomatic.eps> [26] [27] [28] [29]) [30]
 \openout2 = `5_conclusion.aux'.
 
  (./5_conclusion.tex) [31
@@ -335,14 +328,18 @@ Underfull \hbox (badness 3568) in paragraph at lines 29--30
  (./8_presentations.tex) [36
 
 
-] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux)) ) 
+] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux))
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  3197 strings out of 493248
- 43087 string characters out of 6144402
+ 42931 string characters out of 6144402
  163820 words of memory out of 5000000
  7059 multiletter control sequences out of 15000+600000
  15916 words of font info for 63 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  32i,13n,32p,1712b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (41 pages, 138880 bytes).
+Output written on main.dvi (41 pages, 138716 bytes).
