@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  6 JAN 2021 13:34
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  6 JAN 2021 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -220,7 +220,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
 
 
 ]
-Overfull \hbox (47.73045pt too wide) in paragraph at lines 54--78
+Overfull \hbox (36.18387pt too wide) in paragraph at lines 59--83
  [][] 
  []
 
@@ -245,16 +245,15 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [7]
 File: image/prototype_quiz.eps Graphic file (type eps)
  <image/prototype_quiz.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: image/prototype_fortune.eps Graphic file (type eps)
- <image/prototype_fortune.eps>
+<image/prototype_fortune.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] [10]
+[8] [9] [10]
 File: image/quiz.eps Graphic file (type eps)
  <image/quiz.eps>
 File: image/fortune.eps Graphic file (type eps)
@@ -328,11 +327,7 @@ Underfull \hbox (badness 3568) in paragraph at lines 29--30
  (./8_presentations.tex) [36
 
 
-] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux)) ) 
 Here is how much of TeX's memory you used:
  3197 strings out of 493248
  42931 string characters out of 6144402
@@ -342,4 +337,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  32i,13n,32p,1712b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (41 pages, 138716 bytes).
+Output written on main.dvi (41 pages, 139032 bytes).
