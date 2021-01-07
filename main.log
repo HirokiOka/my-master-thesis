@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  7 JAN 2021 12:10
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2020.12.2)  7 JAN 2021 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -322,11 +322,7 @@ Underfull \hbox (badness 3568) in paragraph at lines 29--30
  (./8_presentations.tex) [37
 
 
-] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+] (./main.aux (./open.aux) (./0_abstract.aux) (./1_introduction.aux) (./2_research_guidelines.aux) (./3_code_reading.aux) (./4_livecode_STG.aux) (./5_conclusion.aux) (./6_thanks.aux) (./7_reference.aux) (./8_presentations.aux)) ) 
 Here is how much of TeX's memory you used:
  3197 strings out of 493248
  42931 string characters out of 6144402
