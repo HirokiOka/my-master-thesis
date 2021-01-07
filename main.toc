@@ -1,6 +1,6 @@
 \contentsline {section}{\numberline {1}はじめに}{1\,\,\,}
 \contentsline {section}{\numberline {2}研究指針}{3\,\,\,}
-\contentsline {section}{\numberline {3}コードリーディング支援システムの開発}{5\,\,\,}
+\contentsline {section}{\numberline {3}コードリーディング促進システムの開発}{5\,\,\,}
 \contentsline {subsection}{\numberline {3.1}研究背景}{5\,\,\,}
 \contentsline {subsection}{\numberline {3.2}関連研究}{5\,\,\,}
 \contentsline {subsubsection}{\numberline {3.2.1}GitHub上のデータを利用した研究}{5\,\,\,}
